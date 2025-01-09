@@ -76,6 +76,7 @@ import {
   SiNextdotjs,
   SiMicrosoftazure,
   SiPlaywright,
+  SiRazorpay,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -102,20 +103,8 @@ export const navLinks = [
     title: "Education",
   },
   {
-    id: "achievements",
-    title: "Achievements",
-  },
-  {
     id: "projects",
     title: "Projects",
-  },
-  {
-    id: "openSource",
-    title: "Open Source",
-  },
-  {
-    id: "extraCurricular",
-    title: "Extra Curricular",
   },
   {
     id: "contactMe",
@@ -139,6 +128,7 @@ export const educationList = [
     title: "HSC | MGM HSS, Coimbatore",
     degree: "",
     duration: "May 2015 - June 2017",
+    content1: "Accounts with computer science",
     // content1:
     //   "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
   },
@@ -597,12 +587,11 @@ export const openSourceContributions = [
 export const projects = [
   {
     id: "project-1",
-    title: "Comicify.ai",
-    github: "https://github.com/ayush4345/Comicify.ai",
-    link: "https://comicify-ai.vercel.app/",
-    image: comicify_ai,
+    title: "Beauty Mart",
+    github: "https://github.com/Sajin-NS/beautymart",
+    link: "https://beautymart.vercel.app/",
     content:
-      "Convert any academic/news/boring text into cool comic strips using GPT-3.5 and Stable Diffusion!",
+      "Developed a fully responsive e-commerce platform with React.js and Tailwind, featuring advanced navigation tools for seamless shopping experiences.",
     stack: [
       {
         id: "icon-1",
@@ -621,323 +610,318 @@ export const projects = [
       },
       {
         id: "icon-4",
-        icon: SiGooglecloud,
-        name: "Google Cloud Platform",
-      },
-      {
-        id: "icon-5",
-        icon: SiFlask,
-        name: "Flask",
+        icon: SiRazorpay,
+        name: "Razorpay",
       },
     ],
   },
-  {
-    id: "project-2",
-    title: "GreenTrust",
-    github: "https://github.com/mittal-parth/GreenTrust",
-    link: "https://green-trust-fantom.netlify.app/",
-    image: greentrust,
-    content:
-      "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "icon-3",
-        icon: SiNextdotjs,
-        name: "Next.js",
-      },
-      {
-        id: "icon-4",
-        icon: SiIpfs,
-        name: "IPFS",
-      },
-      {
-        id: "icon-5",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "icon-6",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
-      },
-    ],
-  },
-  {
-    id: "project-3",
-    title: "ChargeSwap",
-    github: "https://github.com/CommanderAstern/ChargeSwap",
-    link: "https://devfolio.co/projects/chargeswap-3527",
-    image: chargeswap,
-    content:
-      "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-3",
-        icon: SiWeb3Dotjs,
-        name: "Web3.js",
-      },
-      {
-        id: "icon-4",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
-      {
-        id: "icon-5",
-        icon: FaHardHat,
-        name: "HardHat",
-      },
-      {
-        id: "icon-6",
-        icon: SiIpfs,
-        name: "IPFS",
-      },
-      {
-        id: "icon-7",
-        icon: SiArduino,
-        name: "Arduino",
-      },
-      {
-        id: "icon-8",
-        icon: IoIosNotificationsOutline,
-        name: "Push Protocol",
-      },
-    ],
-  },
-  {
-    id: "project-4",
-    title: "Samsotech Table Management System",
-    github: "",
-    link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
-    image: placeicon,
-    content:
-      "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDotnet,
-        name: "Dot Net Core MVC 6",
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "icon-3",
-        icon: DiMsqlServer,
-        name: "MS Sql Server",
-      },
-      {
-        id: "icon-4",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-      {
-        id: "icon-5",
-        icon: SiTwilio,
-        name: "Twillio",
-      },
-    ],
-  },
-  {
-    id: "project-5",
-    title: "Non-Teaching Recruitment Portal, NITK",
-    github: "",
-    link: "http://recruitment.nitk.ac.in/",
-    image: recruitment,
-    content:
-      "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "TailwindCSS",
-      },
-      {
-        id: "icon-3",
-        icon: SiJquery,
-        name: "jQuery",
-      },
-    ],
-  },
-  {
-    id: "project-6",
-    title: "Career Development Centre, NITK Website",
-    github: "",
-    link: "http://cdc.nitk.ac.in/",
-    image: cdc,
-    content: "The official website of CDC, NITK with a custom built CMS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
-      {
-        id: "icon-2",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "icon-3",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-    ],
-  },
-  {
-    id: "project-7",
-    title: "Huntly",
-    github: "",
-    link: "https://devfolio.co/projects/huntly-b5a9",
-    image: huntly,
-    content:
-      "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django Rest Framework",
-      },
-      {
-        id: "icon-2",
-        icon: SiFlutter,
-        name: "Flutter",
-      },
-      {
-        id: "icon-3",
-        icon: SiReplit,
-        name: "Replit",
-      },
-      {
-        id: "icon-4",
-        icon: SiFlask,
-        name: "Flask",
-      },
-      {
-        id: "icon-5",
-        icon: SiFigma,
-        name: "Figma",
-      },
-      {
-        id: "icon-6",
-        icon: SiGooglemaps,
-        name: "Google Maps API",
-      },
-    ],
-  },
-  {
-    id: "project-8",
-    title: "Cluboard",
-    github: "https://github.com/mittal-parth/Cluboard",
-    link: "",
-    image: cluboard,
-    content:
-      "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiDjango,
-        name: "Django",
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML",
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS",
-      },
-      {
-        id: "icon-4",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-      {
-        id: "icon-5",
-        icon: SiBootstrap,
-        name: "Bootstrap",
-      },
-      {
-        id: "icon-6",
-        icon: SiChartdotjs,
-        name: "Chart.js",
-      },
-    ],
-  },
-  {
-    id: "project-9",
-    title: "Cash Flow Minimiser",
-    github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
-    link: "https://minimise-cash-flow.netlify.app/",
-    image: cash_flow,
-    content:
-      "A React application to help users visualise and minimise cash flow among multiple transactions.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-2",
-        icon: AiFillHtml5,
-        name: "HTML",
-      },
-      {
-        id: "icon-3",
-        icon: DiCss3,
-        name: "CSS",
-      },
-    ],
-  },
-  {
-    id: "project-10",
-    title: "Portfolio",
-    github: "https://github.com/mittal-parth/personal-portfolio",
-    link: "https://parthmittal.netlify.app/",
-    image: portfolio,
-    content: "Personal portfolio website with React and Tailwind CSS.",
-    stack: [
-      {
-        id: "icon-1",
-        icon: SiReact,
-        name: "React",
-      },
-      {
-        id: "icon-2",
-        icon: SiTailwindcss,
-        name: "Tailwind CSS",
-      },
-      {
-        id: "icon-3",
-        icon: AiFillHtml5,
-        name: "HTML",
-      },
-    ],
-  },
+  // {
+  //   id: "project-2",
+  //   title: "GreenTrust",
+  //   github: "https://github.com/mittal-parth/GreenTrust",
+  //   link: "https://green-trust-fantom.netlify.app/",
+  //   image: greentrust,
+  //   content:
+  //     "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiReact,
+  //       name: "React",
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiTailwindcss,
+  //       name: "TailwindCSS",
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiNextdotjs,
+  //       name: "Next.js",
+  //     },
+  //     {
+  //       id: "icon-4",
+  //       icon: SiIpfs,
+  //       name: "IPFS",
+  //     },
+  //     {
+  //       id: "icon-5",
+  //       icon: SiSolidity,
+  //       name: "Solidity",
+  //     },
+  //     {
+  //       id: "icon-6",
+  //       icon: IoIosNotificationsOutline,
+  //       name: "Push Protocol",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: "project-3",
+  //   title: "ChargeSwap",
+  //   github: "https://github.com/CommanderAstern/ChargeSwap",
+  //   link: "https://devfolio.co/projects/chargeswap-3527",
+  //   image: chargeswap,
+  //   content:
+  //     "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiReact,
+  //       name: "React",
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiWeb3Dotjs,
+  //       name: "Web3.js",
+  //     },
+  //     {
+  //       id: "icon-4",
+  //       icon: SiSolidity,
+  //       name: "Solidity",
+  //     },
+  //     {
+  //       id: "icon-5",
+  //       icon: FaHardHat,
+  //       name: "HardHat",
+  //     },
+  //     {
+  //       id: "icon-6",
+  //       icon: SiIpfs,
+  //       name: "IPFS",
+  //     },
+  //     {
+  //       id: "icon-7",
+  //       icon: SiArduino,
+  //       name: "Arduino",
+  //     },
+  //     {
+  //       id: "icon-8",
+  //       icon: IoIosNotificationsOutline,
+  //       name: "Push Protocol",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: "project-4",
+  //   title: "Samsotech Table Management System",
+  //   github: "",
+  //   link: "https://www.linkedin.com/posts/mittal-parth_technologysolutions-softwaredevelopment-technology-activity-6994915645066809344-WnMY?utm_source=share&utm_medium=member_desktop",
+  //   image: placeicon,
+  //   content:
+  //     "Restaurant, Place, Table and realtime Reservation Management with Multi-Tenant Architecture, RBAC, SMS and Email integration for Samsotech International",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiDotnet,
+  //       name: "Dot Net Core MVC 6",
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiBootstrap,
+  //       name: "Bootstrap",
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: DiMsqlServer,
+  //       name: "MS Sql Server",
+  //     },
+  //     {
+  //       id: "icon-4",
+  //       icon: SiJquery,
+  //       name: "jQuery",
+  //     },
+  //     {
+  //       id: "icon-5",
+  //       icon: SiTwilio,
+  //       name: "Twillio",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: "project-5",
+  //   title: "Non-Teaching Recruitment Portal, NITK",
+  //   github: "",
+  //   link: "http://recruitment.nitk.ac.in/",
+  //   image: recruitment,
+  //   content:
+  //     "The official recruitment portal for non-teaching staff with an admin panel, email notifications and payment integration.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiRubyonrails,
+  //       name: "Ruby on Rails",
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiTailwindcss,
+  //       name: "TailwindCSS",
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiJquery,
+  //       name: "jQuery",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: "project-6",
+  //   title: "Career Development Centre, NITK Website",
+  //   github: "",
+  //   link: "http://cdc.nitk.ac.in/",
+  //   image: cdc,
+  //   content: "The official website of CDC, NITK with a custom built CMS.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiRubyonrails,
+  //       name: "Ruby on Rails",
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiBootstrap,
+  //       name: "Bootstrap",
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiJavascript,
+  //       name: "JavaScript",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: "project-7",
+  //   title: "Huntly",
+  //   github: "",
+  //   link: "https://devfolio.co/projects/huntly-b5a9",
+  //   image: huntly,
+  //   content:
+  //     "A cross-platform mobile application that brings people closer to the physical environment and forms meaningful connections by organising real-world Treasure Hunts for free and winning rewards. The app uses machine learning to match users and form teams of like-minded people.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiDjango,
+  //       name: "Django Rest Framework",
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiFlutter,
+  //       name: "Flutter",
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: SiReplit,
+  //       name: "Replit",
+  //     },
+  //     {
+  //       id: "icon-4",
+  //       icon: SiFlask,
+  //       name: "Flask",
+  //     },
+  //     {
+  //       id: "icon-5",
+  //       icon: SiFigma,
+  //       name: "Figma",
+  //     },
+  //     {
+  //       id: "icon-6",
+  //       icon: SiGooglemaps,
+  //       name: "Google Maps API",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: "project-8",
+  //   title: "Cluboard",
+  //   github: "https://github.com/mittal-parth/Cluboard",
+  //   link: "",
+  //   image: cluboard,
+  //   content:
+  //     "A full-stack web application to facilitate sharing resources in college clubs with email notifications, requests and ticketing system, and analytical dashboards.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiDjango,
+  //       name: "Django",
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: AiFillHtml5,
+  //       name: "HTML",
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: DiCss3,
+  //       name: "CSS",
+  //     },
+  //     {
+  //       id: "icon-4",
+  //       icon: SiJavascript,
+  //       name: "JavaScript",
+  //     },
+  //     {
+  //       id: "icon-5",
+  //       icon: SiBootstrap,
+  //       name: "Bootstrap",
+  //     },
+  //     {
+  //       id: "icon-6",
+  //       icon: SiChartdotjs,
+  //       name: "Chart.js",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: "project-9",
+  //   title: "Cash Flow Minimiser",
+  //   github: "https://github.com/mittal-parth/Cash-Flow-Minmiser",
+  //   link: "https://minimise-cash-flow.netlify.app/",
+  //   image: cash_flow,
+  //   content:
+  //     "A React application to help users visualise and minimise cash flow among multiple transactions.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiReact,
+  //       name: "React",
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: AiFillHtml5,
+  //       name: "HTML",
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: DiCss3,
+  //       name: "CSS",
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: "project-10",
+  //   title: "Portfolio",
+  //   github: "https://github.com/mittal-parth/personal-portfolio",
+  //   link: "https://parthmittal.netlify.app/",
+  //   image: portfolio,
+  //   content: "Personal portfolio website with React and Tailwind CSS.",
+  //   stack: [
+  //     {
+  //       id: "icon-1",
+  //       icon: SiReact,
+  //       name: "React",
+  //     },
+  //     {
+  //       id: "icon-2",
+  //       icon: SiTailwindcss,
+  //       name: "Tailwind CSS",
+  //     },
+  //     {
+  //       id: "icon-3",
+  //       icon: AiFillHtml5,
+  //       name: "HTML",
+  //     },
+  //   ],
+  // },
 ];
 
 export const blogPosts = [
@@ -1107,33 +1091,34 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: AiFillLinkedin,
-    link: "https://www.linkedin.com/in/mittal-parth",
+    link: "https://www.linkedin.com/in/sajinns/",
   },
   {
     id: "social-media-2",
     icon: AiFillGithub,
-    link: "https://www.github.com/mittal-parth",
+    link: "https://github.com/Sajin-NS/",
   },
   {
     id: "social-media-3",
     icon: AiFillMail,
-    link: "mailto:mittalparth22@gmail.com",
+    link: "mailto:sajinsathyan001@gmail.com",
   },
   {
     id: "social-media-4",
     icon: AiOutlineTwitter,
-    link: "https://www.twitter.com/mittalparth_",
+    link: "https://x.com/sajin_ns",
   },
   {
     id: "social-media-5",
     icon: AiFillInstagram,
-    link: "https://www.instagram.com/mittalparth_",
+    link: "https://www.instagram.com/its__sajin",
   },
 ];
 
 export const aboutMe = {
   name: "Sajin NS",
   tagLine: "Frontend Developer | ex-QA Test Engineer",
+  contact: "sajinsathyan001@gmail.com  |  +91 9789593505",
   intro:
     "Frontend Developer with passionate about building user-centric web applications and ensuring high-quality software solutions.",
 };
