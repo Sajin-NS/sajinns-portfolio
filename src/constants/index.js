@@ -355,20 +355,20 @@ export const experiences = [
         duration: "Aug 2023 - Present",
         content: [
           {
-            text: "Working in the DBaaS Control Plane team in the Database Unit.",
+            text: "Frontend Developer of experience in creating and maintaining SaaS product. Experienced in debugging, developing efficient solutions, and ensuring quality through a strong foundation in testing.",
+            link: "",
+          },
+          {
+            text: "Spearheaded the design and development of a real estate management platform. using React.js, Next.js, and Tailwind CSS, boosting customer satisfaction scores by 25% within six months.",
             link: "",
           },
         ],
       },
       {
-        title: "Member of Technical Staff Intern",
+        title: "Automation Tester",
         content: [
           {
-            text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
-            link: "",
-          },
-          {
-            text: "Wrote APIs in Java to help gracefully migrate a running ExaC@C infrastructure to a new region in the case of a region failure",
+            text: "Skilled in automation testing to enhance the development process and ensure reliability throughout the software lifecycle.",
             link: "",
           },
         ],
@@ -376,20 +376,16 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Averlon",
+    organisation: "Vee Technologies",
     logo: averlon,
-    link: "https://averlon.ai/",
+    link: "https://www.veetechnologies.com/",
     positions: [
       {
-        title: "Software Developer Intern",
-        duration: "Sept 2023 - Feb 2024",
+        title: "Medical Coder - CRC",
+        duration: "Sept 2022 - June 2023",
         content: [
           {
-            text: "Added support for the discoverability of Microsoft Azure assets utilising Go and Gremlin.",
-            link: "",
-          },
-          {
-            text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
+            text: "Certified Risk Adjustment Coder (CRC) with expertise in ICD-10-CM coding, HCC models, and CMS compliance. Skilled in accurate chart reviews, risk adjustment coding, and ensuring documentation accuracy to optimize reimbursements. Proficient in EHR systems, coding audits, and maintaining regulatory standards. Dedicated to delivering high-quality coding with minimal errors.",
             link: "",
           },
         ],
