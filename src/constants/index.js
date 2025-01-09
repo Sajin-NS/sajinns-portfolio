@@ -228,39 +228,14 @@ export const skills = [
     title: "Programming Languages",
     items: [
       {
-        id: "pl-1",
-        icon: DiRuby,
-        name: "Ruby",
-      },
-      {
-        id: "pl-2",
-        icon: SiPython,
-        name: "Python",
-      },
-      {
-        id: "pl-3",
-        icon: SiCplusplus,
-        name: "C++",
-      },
-      {
-        id: "pl-4",
-        icon: FaGolang,
-        name: "Go",
-      },
-      {
-        id: "pl-5",
-        icon: FaRust,
-        name: "Rust",
+        id: "pl-10",
+        icon: SiJavascript,
+        name: "JavaScript",
       },
       {
         id: "pl-6",
         icon: DiJava,
         name: "Java",
-      },
-      {
-        id: "pl-7",
-        icon: SiC,
-        name: "C",
       },
       {
         id: "pl-8",
@@ -272,31 +247,11 @@ export const skills = [
         icon: DiCss3,
         name: "CSS",
       },
-      {
-        id: "pl-10",
-        icon: SiJavascript,
-        name: "JavaScript",
-      },
-      {
-        id: "pl-11",
-        icon: SiSolidity,
-        name: "Solidity",
-      },
     ],
   },
   {
     title: "Frameworks/Libraries",
     items: [
-      {
-        id: "f-1",
-        icon: SiDjango,
-        name: "Django",
-      },
-      {
-        id: "f-2",
-        icon: SiRubyonrails,
-        name: "Ruby on Rails",
-      },
       {
         id: "f-3",
         icon: SiReact,
@@ -317,26 +272,11 @@ export const skills = [
         icon: SiJquery,
         name: "jQuery",
       },
-      {
-        id: "f-7",
-        icon: SiGraphql,
-        name: "GraphQL",
-      },
-      {
-        id: "f-8",
-        icon: SiDotnet,
-        name: ".NET",
-      },
     ],
   },
   {
     title: "Tools",
     items: [
-      {
-        id: "t-1",
-        icon: SiMicrosoftazure,
-        name: "Azure",
-      },
       {
         id: "t-2",
         icon: SiMysql,
