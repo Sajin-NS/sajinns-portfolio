@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { close, parthmittal, menu } from "../assets";
+import { close, sajinLogo, menu } from "../assets";
 import { navLinks } from "../constants";
 
 const Navbar = () => {
@@ -9,11 +9,7 @@ const Navbar = () => {
     <nav className="w-full  flex justify-between items-center navbar">
       {/* Logo */}
       <a href="#home">
-        <img
-          src={parthmittal}
-          alt="Parth Mittal"
-          className="w-[80px] h-[80px]"
-        />
+        <img src={sajinLogo} alt="Sajin" className="w-[100px] h-[100px]" />
       </a>
 
       {/* List of links */}
