@@ -49,6 +49,8 @@ import {
   SiPython,
   SiCplusplus,
   SiC,
+  SiNodedotjs,
+  SiPostgresql,
   SiRubyonrails,
   SiJquery,
   SiVisualstudiocode,
@@ -73,6 +75,7 @@ import {
   SiGooglecloud,
   SiNextdotjs,
   SiMicrosoftazure,
+  SiPlaywright,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -233,11 +236,6 @@ export const skills = [
         name: "JavaScript",
       },
       {
-        id: "pl-6",
-        icon: DiJava,
-        name: "Java",
-      },
-      {
         id: "pl-8",
         icon: AiFillHtml5,
         name: "HTML",
@@ -247,6 +245,16 @@ export const skills = [
         icon: DiCss3,
         name: "CSS",
       },
+      {
+        id: "pl-6",
+        icon: DiJava,
+        name: "Java",
+      },
+      {
+        id: "pl-2",
+        icon: SiPostgresql,
+        name: "Postgresql",
+      },
     ],
   },
   {
@@ -254,8 +262,23 @@ export const skills = [
     items: [
       {
         id: "f-3",
+        icon: SiNodedotjs,
+        name: "NodeJS",
+      },
+      {
+        id: "f-3",
         icon: SiReact,
         name: "ReactJS",
+      },
+      {
+        id: "f-3",
+        icon: SiNextdotjs,
+        name: "NextJS",
+      },
+      {
+        id: "f-3",
+        icon: SiPlaywright,
+        name: "Playwright",
       },
       {
         id: "f-4",
@@ -323,13 +346,13 @@ export const skills = [
 
 export const experiences = [
   {
-    organisation: "Oracle, India",
+    organisation: "Realiti.io",
     logo: oracle,
-    link: "https://www.oracle.com/in/",
+    link: "https://www.realiti.io",
     positions: [
       {
-        title: "Member of Technical Staff - 1",
-        duration: "Jul 2024 - Present",
+        title: "Frontend Developer",
+        duration: "Aug 2023 - Present",
         content: [
           {
             text: "Working in the DBaaS Control Plane team in the Database Unit.",
@@ -339,7 +362,6 @@ export const experiences = [
       },
       {
         title: "Member of Technical Staff Intern",
-        duration: "May 2023 - Jul 2023",
         content: [
           {
             text: "Worked with the Exadata Cloud@Customer team in the Database Unit.",
@@ -368,57 +390,6 @@ export const experiences = [
           },
           {
             text: "Extended support for Azure for reachability analysis of assets for cloud security posture management.",
-            link: "",
-          },
-        ],
-      },
-    ],
-  },
-  {
-    organisation: "IRIS, NITK",
-    logo: iris,
-    link: "https://iris.nitk.ac.in/about_us",
-    positions: [
-      {
-        title: "Tech Lead",
-        duration: "Apr 2023 - Apr 2024",
-        content: [
-          {
-            text: "Led a team of 40+ students in digitizing administrative, academic and alumni-related work.",
-            link: "",
-          },
-          {
-            text: "Managed all phases of Software Development Life Cycle (SDLC) for 15+ modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Lead",
-        duration: "Apr 2022 - Present",
-        content: [
-          {
-            text: "Managing a team of 6 student developers while also overlooking multiple modules.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer",
-        duration: "Nov 2021 - Apr 2022",
-        content: [
-          {
-            text: "Added Conditional Fields support to the Forms Module.",
-            link: "",
-          },
-        ],
-      },
-      {
-        title: "Web Developer Intern",
-        duration: "Jun 2021 - Oct 2021",
-        content: [
-          {
-            text: "Developed a multi-role approval flow system to facilitate data collection and display on the Institute's Department Websites.",
             link: "",
           },
         ],
