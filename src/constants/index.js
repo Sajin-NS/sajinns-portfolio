@@ -88,7 +88,7 @@ import { FaGolang } from "react-icons/fa6";
 import { DiCss3, DiJava, DiMsqlServer, DiRuby } from "react-icons/di";
 
 export const resumeLink =
-  "https://drive.google.com/file/d/1vkxyMDB5_KpMwt4QXFgT2aqdRizr8Czh/view?usp=sharing";
+  "https://drive.google.com/file/d/1XPmfFIMGDHRsGMLRRxlR6X9QlpY2aSOt/view?usp=sharing";
 export const repoLink = "https://github.com/mittal-parth/personal-portfolio";
 
 export const callToAction = "https://www.linkedin.com/in/sajinns";
