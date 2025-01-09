@@ -124,20 +124,20 @@ export const educationList = [
   {
     id: "education-1",
     icon: nitk,
-    title: "National Institute of Technology Karnataka, Surathkal",
-    degree: "Bachelor of Technology",
-    duration: "December 2020 - May 2024",
-    content1: "Major: Electronics and Communication Engineering",
-    content2: "Minor: Information Technology",
+    title: "CMS College Coimbatore",
+    degree: "Bachelor of Computer Applications",
+    duration: "December 2018 - May 2021",
+    content1: "Major: Computer Applications",
+    // content2: "Minor: Information Technology",
   },
   {
     id: "education-2",
     icon: pba,
-    title: "Polkadot Blockchain Academy",
+    title: "HSC | MGM HSS, Coimbatore",
     degree: "",
-    duration: "May 2024 - June 2024",
-    content1:
-      "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
+    duration: "May 2015 - June 2017",
+    // content1:
+    //   "Graduated with a distinction in the fifth cohort of the Polkadot Blockchain Academy at the National University of Singapore.",
   },
 ];
 
