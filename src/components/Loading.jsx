@@ -15,7 +15,7 @@ const Loading = ({ isLoading }) => {
         ease: "easeIn",
       }}
     >
-      <img src={sajinLogo} alt="Parth Mittal" className="w-[100px] h-[100px]" />
+      <img src={sajinLogo} alt="Sajin" className="w-[100px] h-[100px]" />
     </motion.div>
   );
 };
