@@ -77,6 +77,7 @@ import {
   SiMicrosoftazure,
   SiPlaywright,
   SiRazorpay,
+  SiSelenium,
 } from "react-icons/si";
 
 import { FaHardHat, FaRust } from "react-icons/fa";
@@ -342,7 +343,7 @@ export const experiences = [
     positions: [
       {
         title: "Frontend Developer",
-        duration: "Aug 2023 - Present",
+        duration: "Aug 2023 - Jan 2025",
         content: [
           {
             text: "Frontend Developer of experience in creating and maintaining SaaS product. Experienced in debugging, developing efficient solutions, and ensuring quality through a strong foundation in testing.",
@@ -356,6 +357,7 @@ export const experiences = [
       },
       {
         title: "Automation Tester",
+        duration: "Aug 2023 - Jan 2025",
         content: [
           {
             text: "Skilled in automation testing to enhance the development process and ensure reliability throughout the software lifecycle.",
@@ -366,16 +368,24 @@ export const experiences = [
     ],
   },
   {
-    organisation: "Vee Technologies",
+    organisation: "Infomat Technologies",
     logo: averlon,
     link: "https://www.veetechnologies.com/",
     positions: [
       {
-        title: "Medical Coder - CRC",
-        duration: "Sept 2022 - June 2023",
+        title: "Software Tester - Trainee",
+        duration: "Sept 2022 - Mar 2023",
         content: [
           {
-            text: "Certified Risk Adjustment Coder (CRC) with expertise in ICD-10-CM coding, HCC models, and CMS compliance. Skilled in accurate chart reviews, risk adjustment coding, and ensuring documentation accuracy to optimize reimbursements. Proficient in EHR systems, coding audits, and maintaining regulatory standards. Dedicated to delivering high-quality coding with minimal errors.",
+            text: "Assisted in executing test plans and scenarios to ensure software functionality.",
+            link: "",
+          },
+          {
+            text: "Conducted bug tracking and collaborated with developers to resolve issues.",
+            link: "",
+          },
+          {
+            text: "Gained foundational knowledge in software quality assurance and testing methodologies.",
             link: "",
           },
         ],
@@ -615,47 +625,32 @@ export const projects = [
       },
     ],
   },
-  // {
-  //   id: "project-2",
-  //   title: "GreenTrust",
-  //   github: "https://github.com/mittal-parth/GreenTrust",
-  //   link: "https://green-trust-fantom.netlify.app/",
-  //   image: greentrust,
-  //   content:
-  //     "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiReact,
-  //       name: "React",
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiTailwindcss,
-  //       name: "TailwindCSS",
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: SiNextdotjs,
-  //       name: "Next.js",
-  //     },
-  //     {
-  //       id: "icon-4",
-  //       icon: SiIpfs,
-  //       name: "IPFS",
-  //     },
-  //     {
-  //       id: "icon-5",
-  //       icon: SiSolidity,
-  //       name: "Solidity",
-  //     },
-  //     {
-  //       id: "icon-6",
-  //       icon: IoIosNotificationsOutline,
-  //       name: "Push Protocol",
-  //     },
-  //   ],
-  // },
+  {
+    id: "project-2",
+    title: "SpiceMart",
+    // github: "https://github.com/mittal-parth/GreenTrust",
+    // link: "https://green-trust-fantom.netlify.app/",
+    image: greentrust,
+    content:
+      "SpiceMart is an ERP system designed to streamline information and processes across various divisions of an organization. The system integrates operations from inventory purchase through processing and final shipment to customers, offering a unified and efficient approach to supply chain management.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiMysql,
+        name: "React",
+      },
+      {
+        id: "icon-2",
+        icon: SiSelenium,
+        name: "TailwindCSS",
+      },
+      {
+        id: "icon-3",
+        icon: SiPlaywright,
+        name: "Next.js",
+      },
+    ],
+  },
   // {
   //   id: "project-3",
   //   title: "ChargeSwap",
@@ -1117,7 +1112,7 @@ export const socialMedia = [
 
 export const aboutMe = {
   name: "Sajin NS",
-  tagLine: "Frontend Developer | ex-QA Test Engineer",
+  tagLine: "Frontend Developer | QA Test Engineer",
   contact: "sajinsathyan001@gmail.com  |  +91 9789593505",
   intro:
     "Frontend Developer with passionate about building user-centric web applications and ensuring high-quality software solutions.",
