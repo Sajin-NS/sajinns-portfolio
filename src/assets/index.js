@@ -1,5 +1,5 @@
 import sajinLogo from "./sajinLogo.png";
-import profilePic from "./sajin.jpg";
+import profilePic from "./sajinnsprofileimg.png";
 import quotes from "./quotes.svg";
 import robot from "./robot.png";
 import send from "./Send.svg";
